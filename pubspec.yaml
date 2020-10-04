@@ -1,0 +1,35 @@
+name: quizzler
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  #TODO: Step 1 - Add the rFlutter Alert package as a dependency here and use "Packages get".
+  rflutter_alert: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  video_player: ^0.11.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/1.png
+    - assets/2.png
+    - assets/3.png
+    - assets/4.png
+    - assets/Lauchbackground.png
+    - assets/guy.png
+    - assets/Mission1Fact.png
+    - assets/rs25.png
+    - assets/solidbooster.png
