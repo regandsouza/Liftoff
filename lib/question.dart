@@ -1,3 +1,4 @@
+//Class for the MCQ system
 class Question {
   String questionText;
   bool questionAnswer;
